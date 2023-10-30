@@ -11,6 +11,7 @@ export default function Footer() {
                             <li className="list-group-item"><Link to="/cursos">A empresa</Link></li>
                             <li className="list-group-item"><Link to="/sobre">Trocas e Devoluções</Link></li>
                             <li className="list-group-item"><Link to="/sobre">Parceiros</Link></li>
+                            <li className="list-group-item"><Link to="/sobre">Contato</Link></li>
                         {/* </ul> */}
                     </div>
                     <div className="col-md-3">
@@ -30,6 +31,9 @@ export default function Footer() {
                     <div className="col-md-3">
                         <h4>PescaVirtual</h4>
                         <p>2023 - Todos os direitos reservados</p>
+                    </div>
+                    <div>
+                    <img src="./site_pvremovebg-preview.png" className="d-block w-100" alt="..." />
                     </div>
                 </div>
             </div>

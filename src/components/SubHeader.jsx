@@ -6,11 +6,32 @@ export default function Header() {
             <nav className="navbar navbar-expand-lg bg-warning">
                 <div className="collapse navbar-collapse ms-md-auto justify-content-end" id="navbarNav">
                     <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <Link to="/" className="nav-link"><h4>Página Inicial</h4></Link>
+                    <li className="nav-item">
+                            <Link to="/ofertas" className="nav-link"><h4>Molinetes</h4></Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/contato" className="nav-link"><h4>Contato</h4></Link>
+                            <Link to="/ofertas" className="nav-link"><h4>Carretilhas</h4></Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/ofertas" className="nav-link"><h4>Varas</h4></Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/ofertas" className="nav-link"><h4>Iscas</h4></Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/ofertas" className="nav-link"><h4>Linhas</h4></Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/ofertas" className="nav-link"><h4>Acessórios</h4></Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/ofertas" className="nav-link"><h4>Vestuário</h4></Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/ofertas" className="nav-link"><h4>Ofertas</h4></Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/" className="nav-link"><h4>Carrinho</h4></Link>
                         </li>
                     </ul>
 

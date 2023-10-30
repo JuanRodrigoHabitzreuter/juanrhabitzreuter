@@ -11,12 +11,12 @@ export default function Header() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse ms-md-auto justify-content-end" id="navbarNav">
+                            <li className="nav-item">
+                                <Link to="/contato" className="nav-link">Ofertas</Link>
+                            </li>
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link to="/" className="nav-link">Página Inicial </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/contato" className="nav-link">Contato</Link>
+                                <Link to="/" className="nav-link">Carrinho </Link>
                             </li>
                         </ul>
                         <h4 className="my-0 fw-normal">Entrar</h4>
