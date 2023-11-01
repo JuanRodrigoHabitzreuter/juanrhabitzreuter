@@ -1,34 +1,28 @@
+import { Button, Col, Container, Image, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export default function Header() {
-    return (
-        <div>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
-                <div className="container">
-               
-                    <Link className="navbar-brand" to="/">Navbar</Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse ms-md-auto justify-content-end" id="navbarNav">
-                            <li className="nav-item">
-                                <Link to="/contato" className="nav-link">Ofertas</Link>
-                            </li>
-                        <ul className="navbar-nav">
-                            <li className="nav-item">
-                                <Link to="/" className="nav-link">Carrinho </Link>
-                            </li>
-                        </ul>
-                        <h4 className="my-0 fw-normal">Entrar</h4>
-                    </div>
-                    <button type="button" className="w-100 btn btn-lg btn-outline-primary">
-                        Cadastre-se gratuitamente
-                    </button>
-
-                </div>
-            </nav >
-        </div>
-
-    );
+  return (
+    <>
+      <Navbar className="navbar navbar-expand-lg bg-body-tertiary">
+        {/* <nav className="navbar navbar-expand-lg bg-body-tertiary"> */}
+        <Container>
+          <Col>
+            <Link className="navbar-brand" to="/">
+              <Image
+                src={require("../img/site_pv.jpg")}
+                style={{
+                  maxWidth: 150,
+                }}
+              />
+            </Link>
+          </Col>
+          <Col className="d-flex justify-content-end">
+            <Button size="sm" >Entrar</Button>
+            <Button size="sm">Cadastre-se gratuitamente</Button>
+          </Col>
+        </Container>
+      </Navbar>
+    </>
+  );
 }
-
