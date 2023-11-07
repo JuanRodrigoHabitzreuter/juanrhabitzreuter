@@ -1,10 +1,9 @@
 import Button from "react-bootstrap/Button";
 
-export default function OfertaScreen() {
+ function OfertaScreen() {
   return (
     <div>
-     
-      
+           
         <Button variant="outline-primary">10% Off</Button>{" "}
         <Button variant="outline-secondary">15% Off</Button>{" "}
         <Button variant="outline-success">20% Off</Button>{" "}
@@ -17,3 +16,4 @@ export default function OfertaScreen() {
     </div>
   );
 }
+export default OfertaScreen;

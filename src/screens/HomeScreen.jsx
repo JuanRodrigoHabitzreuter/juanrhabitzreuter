@@ -105,5 +105,22 @@ export default function HomeScreen() {
       </div>
       {/* termina  aqui o carrossel  */}
     </Container>
+
   );
 }
+//     <Container2>
+//       function DefaultExample() {
+
+//     <ListGroup>
+//       <ListGroup.Item>Molinetes</ListGroup.Item>
+//       <ListGroup.Item>Carretilhas</ListGroup.Item>
+//       <ListGroup.Item>Varas</ListGroup.Item>
+//       <ListGroup.Item>Iscas</ListGroup.Item>
+//       <ListGroup.Item>Linhas</ListGroup.Item>
+//       <ListGroup.Item>Acessórios</ListGroup.Item>
+//       <ListGroup.Item>Vestuário</ListGroup.Item>
+//     </ListGroup>
+//     }
+//       </Container2>
+//   );
+// }

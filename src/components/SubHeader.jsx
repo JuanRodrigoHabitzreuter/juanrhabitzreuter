@@ -57,6 +57,11 @@ export default function Header() {
                   <h4>Carrinho</h4>
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link to="/exercicioFetch" className="nav-link">
+                  <h4>Exercicio Fetch</h4>
+                </Link>
+              </li>
             </ul>
           </div>
         </Container>
