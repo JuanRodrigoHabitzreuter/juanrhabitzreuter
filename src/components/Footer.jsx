@@ -9,7 +9,7 @@ export default function Footer() {
             <h4>Institucional</h4>
             {/* <ul className="list-group"> */}
             <li className="list-group-item">
-              <Link to="/cursos">A empresa</Link>
+              <Link to="/sobre">A empresa</Link>
             </li>
             <li className="list-group-item">
               <Link to="/sobre">Trocas e Devoluções</Link>
@@ -25,7 +25,7 @@ export default function Footer() {
           <div className="col-md-3">
             <h4>Área do Cliente</h4>
             <li className="list-group-item">
-              <Link to="/cursos">Minha conta</Link>
+              <Link to="/sobre">Minha conta</Link>
             </li>
             <li className="list-group-item">
               <Link to="/sobre">Meus pedidos</Link>
