@@ -64,4 +64,3 @@ const ExercicioFetch = () => {
 };
 
 export default ExercicioFetch;
-//  Belligol é ele ༼ つ ◕_◕ ༽つ
