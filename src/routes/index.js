@@ -14,7 +14,7 @@ export default function RouterRoot() {
                     <Route element={<HomeScreen />} path="/" />
                     <Route element={<OfertaScreen />} path="/oferta" />
                     <Route element={<ExercicioFetch />} path="/exercicioFetch" />
-                    <Route element={<NoticiaSingle/>} path="/noticiaSingle" />
+                    <Route element={<NoticiaSingle />} path="/vernoticia/:idNoticia" />
                 </Route>
             </Routes>
         </BrowserRouter>

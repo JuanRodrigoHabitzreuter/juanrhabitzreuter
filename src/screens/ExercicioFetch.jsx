@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import {  Card, Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const ExercicioFetch = () => {
   // https://pt-br.react.dev/reference/react/useState
@@ -38,7 +39,12 @@ const ExercicioFetch = () => {
                 <Card.Body className="d-flex flex-column justify-content-between">
                   <Card.Title>{dado.title}</Card.Title>
                   <Card.Text>{dado.body.substring(0, 20)}...</Card.Text>
-                  <Button variant="primary">Ir para algum lugar</Button>
+                  <Link to={`/vernoticia/${dado.id}`}>
+                    Ver notícia completa Versão 1
+                  </Link>
+                  <Link to={"/vernoticia/" + dado.id}>
+                    Ver notícia completa Versão 2
+                  </Link>
                 </Card.Body>
               </Card>
             </Col>
@@ -64,3 +70,4 @@ const ExercicioFetch = () => {
 };
 
 export default ExercicioFetch;
+
